@@ -44,7 +44,7 @@ class DashboardController extends Controller
         ->count();
 
 		$emp_typeT = table::people()
-        ->where('employmenttype', 'Trainee')
+        ->where('employmenttype', 'Probitionary')
         ->where('employmentstatus', 'Active')
         ->count();
 

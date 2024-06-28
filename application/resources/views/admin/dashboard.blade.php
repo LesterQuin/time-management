@@ -32,7 +32,7 @@
                                             <td>@isset($emp_typeR) {{ $emp_typeR }} @endisset</td>
                                         </tr>
                                         <tr>
-                                            <td>{{ __('Trainee') }}</td>
+                                            <td>{{ __('Probitionary') }}</td>
                                             <td>@isset($emp_typeT) {{ $emp_typeT }} @endisset</td>
                                         </tr>
                                     </tbody>

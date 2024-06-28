@@ -194,7 +194,7 @@
                                 <select name="employmenttype" class="ui dropdown uppercase">
                                     <option value="">Select Type</option>
                                     <option value="Regular">Regular</option>
-                                    <option value="Trainee">Trainee</option>
+                                    <option value="Probitionary">Probitionary</option>
                                 </select>
                             </div>
                             <div class="field">

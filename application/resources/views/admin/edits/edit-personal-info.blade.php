@@ -197,7 +197,7 @@
                                 <select name="employmenttype" class="ui dropdown uppercase">
                                     <option value="">Select Type</option>
                                     <option value="Regular" @isset($person_details->employmenttype) @if($person_details->employmenttype == 'Regular') selected @endif @endisset>Regular</option>
-                                    <option value="Trainee" @isset($person_details->employmenttype) @if($person_details->employmenttype == 'Trainee') selected @endif @endisset>Trainee</option>
+                                    <option value="Probitionary" @isset($person_details->employmenttype) @if($person_details->employmenttype == 'Probitionary') selected @endif @endisset>Probitionary</option>
                                 </select>
                             </div>
                             <div class="field">
